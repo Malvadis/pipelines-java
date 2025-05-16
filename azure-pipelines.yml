@@ -23,6 +23,7 @@ jobs:
     inputs:
       command: init
       provider: azurerm
+      backendServiceArm: 'sc-devops-vaneck-001'
       backendAzureRmResourceGroupName: 'rg-devops-weu-001'
       backendAzureRmStorageAccountName: 'stgvaneckdevops001'
       backendAzureRmContainerName: 'terraformstate'
